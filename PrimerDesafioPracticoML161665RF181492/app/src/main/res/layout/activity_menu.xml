@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".Menu"
+    android:fillViewport="true">
+
+
+    <Button
+        android:id="@+id/ejercicio1"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="145dp"
+        android:backgroundTint="@color/primary"
+        android:text="Formula Cuadratica"
+        android:onClick="abrirEjercicio1"
+        android:drawableLeft="@drawable/ic_baseline_table_view_24"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ejercicio2"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="abrirEjercicio2"
+        android:backgroundTint="@color/primary_dark"
+        android:drawableLeft="@drawable/ic_baseline_trending_up_24"
+        android:text="Votaciones"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/ejercicio3"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/primary"
+        android:onClick="abrirEjercicio3"
+        android:drawableLeft="@drawable/ic_baseline_local_atm_24"
+        android:text="Calculo del salario"
+        android:textSize="20dp" />
+
+</LinearLayout>

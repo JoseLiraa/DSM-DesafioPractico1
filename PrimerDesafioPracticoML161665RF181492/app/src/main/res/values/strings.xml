@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PrimerDesafioPractico-ML161665-RF181492</string>
+    <string name="title">.</string>
+    <string name="Name">Nombre: %1$s</string>
+    <string name="LastName">Apellido: %1$s</string>
+    <string name="EmployeePosition">Cargo: %1$s</string>
+    <string name="Hours">Horas de trabajo: %1$s</string>
+    <string name="DiscountRent">Descuento de la renta: $ %1$s</string>
+    <string name="DiscountISS">Descuento de la ISS: $ %1$s</string>
+    <string name="DiscountAFP">Descuento de la AFP: $ %1$s</string>
+    <string name="TotalSalary">El total del salario es: $ %1$s</string>
+    <string name="NetSalary">El salario neto es: $ %1$s</string>
+
+    <string name="highestPaidEmployee">El empleado que gana el mayor salario es: %1$s</string>
+    <string name="lowestPaidEmployee">El empleado que gana el menor salario es: %1$s</string>
+    <string name="howManyEarnMoreThanThreeHundred">Los que ganan más de $300 son: %1$s</string>
+</resources>

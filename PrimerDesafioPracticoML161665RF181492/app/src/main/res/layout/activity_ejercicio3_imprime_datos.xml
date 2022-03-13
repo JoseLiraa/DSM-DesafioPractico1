@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/title"
+    android:fillViewport="true">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".secondActivity">
+
+        <TextView
+            android:id="@+id/tittleTextView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Calcular Salario"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/TextViewEmployee1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="Primer empleado"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tittleTextView2" />
+
+        <TextView
+            android:id="@+id/textViewName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/TextViewEmployee1"
+            app:layout_constraintStart_toStartOf="@+id/TextViewEmployee1"
+            app:layout_constraintTop_toBottomOf="@+id/TextViewEmployee1" />
+
+        <TextView
+            android:id="@+id/textViewLastName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewName1"
+            app:layout_constraintStart_toStartOf="@+id/textViewName1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName1" />
+
+        <TextView
+            android:id="@+id/textViewEmployeePosition1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewLastName1"
+            app:layout_constraintStart_toStartOf="@+id/textViewLastName1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLastName1" />
+
+        <TextView
+            android:id="@+id/textViewWorkedHours1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEmployeePosition1"
+            app:layout_constraintStart_toStartOf="@+id/textViewEmployeePosition1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmployeePosition1" />
+
+        <TextView
+            android:id="@+id/textViewTotalSalary1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewWorkedHours1"
+            app:layout_constraintStart_toStartOf="@+id/textViewWorkedHours1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWorkedHours1" />
+
+        <TextView
+            android:id="@+id/textViewAFP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewTotalSalary1"
+            app:layout_constraintStart_toStartOf="@+id/textViewTotalSalary1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTotalSalary1" />
+
+        <TextView
+            android:id="@+id/textViewISS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewAFP1"
+            app:layout_constraintStart_toStartOf="@+id/textViewAFP1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAFP1" />
+
+        <TextView
+            android:id="@+id/textViewRent1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewISS1"
+            app:layout_constraintStart_toStartOf="@+id/textViewISS1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewISS1" />
+
+        <TextView
+            android:id="@+id/textViewMessage2Employee1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewRent1"
+            app:layout_constraintStart_toStartOf="@+id/textViewRent1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRent1" />
+
+        <TextView
+            android:id="@+id/textViewNetSalary1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#24450F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewMessage2Employee1"
+            app:layout_constraintStart_toStartOf="@+id/textViewMessage2Employee1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMessage2Employee1" />
+
+        <TextView
+            android:id="@+id/TextViewLine1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="-----------------------------------------"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="15sp"
+            android:backgroundTint="@color/primary_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textViewNetSalary1" />
+
+        <TextView
+            android:id="@+id/TextViewEmployee2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="Segundo empleado"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/TextViewLine1" />
+
+        <TextView
+            android:id="@+id/textViewName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/TextViewEmployee2"
+            app:layout_constraintStart_toStartOf="@+id/TextViewEmployee2"
+            app:layout_constraintTop_toBottomOf="@+id/TextViewEmployee2" />
+
+        <TextView
+            android:id="@+id/textViewLastName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewName2"
+            app:layout_constraintStart_toStartOf="@+id/textViewName2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName2" />
+
+        <TextView
+            android:id="@+id/textViewEmployeePosition2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewLastName2"
+            app:layout_constraintStart_toStartOf="@+id/textViewLastName2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLastName2" />
+
+        <TextView
+            android:id="@+id/textViewWorkedHours2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEmployeePosition2"
+            app:layout_constraintStart_toStartOf="@+id/textViewEmployeePosition2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmployeePosition2" />
+
+        <TextView
+            android:id="@+id/textViewTotalSalary2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewWorkedHours2"
+            app:layout_constraintStart_toStartOf="@+id/textViewWorkedHours2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWorkedHours2" />
+
+        <TextView
+            android:id="@+id/textViewAFP2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewTotalSalary2"
+            app:layout_constraintStart_toStartOf="@+id/textViewTotalSalary2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTotalSalary2" />
+
+        <TextView
+            android:id="@+id/textViewISS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewAFP2"
+            app:layout_constraintStart_toStartOf="@+id/textViewAFP2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAFP2" />
+
+        <TextView
+            android:id="@+id/textViewRent2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewISS2"
+            app:layout_constraintStart_toStartOf="@+id/textViewISS2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewISS2" />
+
+        <TextView
+            android:id="@+id/textViewMessage2Employee2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewRent2"
+            app:layout_constraintStart_toStartOf="@+id/textViewRent2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRent2" />
+
+        <TextView
+            android:id="@+id/textViewNetSalary2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#24450F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewMessage2Employee2"
+            app:layout_constraintStart_toStartOf="@+id/textViewMessage2Employee2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMessage2Employee2" />
+
+        <TextView
+            android:id="@+id/TextViewLine2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="-----------------------------------------"
+            android:backgroundTint="@color/primary_dark"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="15sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textViewNetSalary2" />
+
+        <TextView
+            android:id="@+id/TextViewEmployee3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:text="Tercer empleado"
+            android:drawableLeft="@drawable/ic_baseline_attach_money_24"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/TextViewLine2" />
+
+        <TextView
+            android:id="@+id/textViewName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/TextViewEmployee3"
+            app:layout_constraintStart_toStartOf="@+id/TextViewEmployee3"
+            app:layout_constraintTop_toBottomOf="@+id/TextViewEmployee3" />
+
+        <TextView
+            android:id="@+id/textViewLastName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewName3"
+            app:layout_constraintStart_toStartOf="@+id/textViewName3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewName3" />
+
+        <TextView
+            android:id="@+id/textViewEmployeePosition3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewLastName3"
+            app:layout_constraintStart_toStartOf="@+id/textViewLastName3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewLastName3" />
+
+        <TextView
+            android:id="@+id/textViewWorkedHours3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textColor="#0A1139"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewEmployeePosition3"
+            app:layout_constraintStart_toStartOf="@+id/textViewEmployeePosition3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewEmployeePosition3" />
+
+        <TextView
+            android:id="@+id/textViewTotalSalary3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewWorkedHours3"
+            app:layout_constraintStart_toStartOf="@+id/textViewWorkedHours3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWorkedHours3" />
+
+        <TextView
+            android:id="@+id/textViewAFP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewTotalSalary3"
+            app:layout_constraintStart_toStartOf="@+id/textViewTotalSalary3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewTotalSalary3" />
+
+        <TextView
+            android:id="@+id/textViewISS3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewAFP3"
+            app:layout_constraintStart_toStartOf="@+id/textViewAFP3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewAFP3" />
+
+        <TextView
+            android:id="@+id/textViewRent3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewISS3"
+            app:layout_constraintStart_toStartOf="@+id/textViewISS3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewISS3" />
+
+        <TextView
+            android:id="@+id/textViewMessage2Employee3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewRent3"
+            app:layout_constraintStart_toStartOf="@+id/textViewRent3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewRent3" />
+
+        <TextView
+            android:id="@+id/textViewNetSalary3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#24450F"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewMessage2Employee3"
+            app:layout_constraintStart_toStartOf="@+id/textViewMessage2Employee3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMessage2Employee3" />
+
+        <TextView
+            android:id="@+id/TextViewLine3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="-----------------------------------------"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="15sp"
+            android:backgroundTint="@color/primary_dark"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.47"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/textViewNetSalary3" />
+
+        <TextView
+            android:id="@+id/textViewMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="75dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/TextViewLine3"
+            app:layout_constraintStart_toStartOf="@+id/TextViewLine3"
+            app:layout_constraintTop_toBottomOf="@+id/TextViewLine3" />
+
+        <TextView
+            android:id="@+id/textViewhighestPaidEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewMessage"
+            app:layout_constraintStart_toStartOf="@+id/textViewMessage"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMessage" />
+
+        <TextView
+            android:id="@+id/lowestPaidEmployee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/textViewhighestPaidEmployee"
+            app:layout_constraintStart_toStartOf="@+id/textViewhighestPaidEmployee"
+            app:layout_constraintTop_toBottomOf="@+id/textViewhighestPaidEmployee" />
+
+        <TextView
+            android:id="@+id/howManyEarnMoreThanThreeHundred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:textSize="20sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            app:layout_constraintEnd_toEndOf="@+id/lowestPaidEmployee"
+            app:layout_constraintStart_toStartOf="@+id/lowestPaidEmployee"
+            app:layout_constraintTop_toBottomOf="@+id/lowestPaidEmployee" />
+
+        <Button
+            android:id="@+id/btnFinish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="50dp"
+            android:ems="10"
+            android:onClick="conclude"
+            android:text="Finalizar"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/primary_dark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/howManyEarnMoreThanThreeHundred"
+            app:layout_constraintStart_toStartOf="@+id/howManyEarnMoreThanThreeHundred"
+            app:layout_constraintTop_toBottomOf="@+id/howManyEarnMoreThanThreeHundred" />
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
